@@ -1,0 +1,36 @@
+#card names
+first_card_name: Automated by design
+first_card_desc: Resilient processes that do not rely on manual steps.
+second_card_name: Self-testing by design
+second_card_desc: Bug-free code that is brilliantly simple and self-maintainable.
+third_card_name: Secure by design
+third_card_desc: Implementation of software patterns that expose no risk.
+
+# How we work list section
+how_we_work:
+  - title: Deep requirements understanding
+    desc: With strong medical and scientific
+          background and a sharp analytic eye, we
+          understand health data projects to the
+          finest of details.
+  - title: Fast and openiteration cycles
+    desc: Aggressive approach to development,
+          prioritizing complete process transparency
+          and fast iterations to converge ideas and
+          requirements early.
+  - title: Battle-test implementation
+    desc: Deployment to sandboxed real-world
+          environments and deep scrutiny of software
+          performance under pressure scenarios.
+  - title: Inspection & improvement
+    desc: Deployment to sandboxed real-world
+          environments and deep scrutiny of software
+          performance under pressure scenarios.
+  - title: Deliver Robust Technology
+    desc: Adoption by ourselves and by our partners to
+          supercharge scientific data processes,
+          maximizing operational efficiency, and
+          minimizing scaling cost.
+  
+                               
+
