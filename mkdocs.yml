@@ -1,0 +1,125 @@
+site_name: sigil-static-website
+site_url: http://sigil.ae
+theme:
+  name: null
+  custom_dir: custom_theme/
+
+extra:
+  style: ./assets/css/style.css
+  logo: ./assets/images/SIGIL-LOGO.png
+  mobile_logo: ./assets/images/mobile-logo.png
+  about: 
+    description: We are shaping the future with stellar technology for Scientific Evidence Generation and Implementation Science.
+    software_house_title: We are a data<br /> software house
+    software_house_desc: We thrive to design and develop stellar technologies
+                    to raise scientific data processing pipelines and
+                    implementation science workflows to unprecedented
+                    quality.   
+  work_section: 
+      #card names
+    first_card_name: Automated by design
+    first_card_desc: Resilient processes that do not rely on manual steps.
+    second_card_name: Self-testing by design
+    second_card_desc: Bug-free code that is brilliantly simple and self-maintainable.
+    third_card_name: Secure by design
+    third_card_desc: Implementation of software patterns that expose no risk.
+
+    # How we work list section
+    how_we_work:
+      - title: Deep requirements understanding
+        desc: With strong medical and scientific
+              background and a sharp analytic eye, we
+              understand health data projects to the
+              finest of details.
+      - title: Fast and openiteration cycles
+        desc: Aggressive approach to development,
+            prioritizing complete process transparency
+            and fast iterations to converge ideas and
+            requirements early.
+      - title: Battle-test implementation
+        desc: Deployment to sandboxed real-world
+              environments and deep scrutiny of software
+              performance under pressure scenarios.
+      - title: Inspection & improvement
+        desc: Deployment to sandboxed real-world
+              environments and deep scrutiny of software
+              performance under pressure scenarios.
+      - title: Deliver Robust Technology
+        desc: Adoption by ourselves and by our partners to
+              supercharge scientific data processes,
+              maximizing operational efficiency, and
+              minimizing scaling cost.
+
+  # team_member: data/team_member
+  team_member:
+    desc: We are a dedicated team of medical doctors,
+      engineers, data scientists and academics on a
+      mission to improve population health and
+      sustainability of healthcare systems.
+    team:
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      - name: Tiago Taveira-Gomes
+        qualifications: MD ME MSc Phd
+        position: Founder & CEO
+        image: ./assets/images/team-member.png
+
+      # - name: Jayshri Mevada
+      #   qualifications: BE IT
+      #   position: Software Developer
+      #   image: ./assets/images/team-member.png
+
+      # Add more team members as needed
+
+  get_in_touch: 
+    desc : We are looking to partner with CROs, Academia,
+                    Healthcare Institutions, Industry and other players
+                    that are interested in achieving operational
+                    excellence and high quality evidence generation, in
+                    RWE and Implementation Science domains.
+
+    checkbox_desc: By checking this box and submitting your
+                  information, you are granting permission to
+                  email you. You may unsubscribe at any time.  
+
+    arrow_image: ./assets/images/arrow.png  
+plugins:
+  - macros:
+      home: custom_theme/main.html
+  - search
+# extra_plugins:
+#   - macros:
+#       module_name: main
