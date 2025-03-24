@@ -6,12 +6,23 @@ theme:
 
 extra:
   style: ./assets/css/style.css
-  logo: ./assets/images/SIGIL-LOGO.png
+  logo: ./assets/images/logo.svg
   mobile_logo: ./assets/images/mobile-logo.png
-  about: 
-    description: We are shaping the future with stellar technology for Scientific Evidence Generation and Implementation Science.
-    software_house_title: We are a data<br /> software house
-    software_house_desc: We thrive to design and develop stellar technologies
+  cover:
+    title_line_one: Global.
+    title_line_two: Scientific.
+    title_line_three: Enterprises.
+    slide_one: ./assets/images/slide-1.svg
+    slide_two: ./assets/images/slide-2.svg
+    slide_three: ./assets/images/slide-3.svg
+  about:  
+    title_line_one: We are shaping the future with
+    title_line_two: stellar technology
+    title_line_three: for Scientific Evidence Generation and Implementation Science.
+    contact_us_btn_arrow: ./assets/images/swipe_arrows.svg
+    software_house_title: We are a data
+    software_house_title_two: software house
+    desc: We thrive to design and develop stellar technologies
                     to raise scientific data processing pipelines and
                     implementation science workflows to unprecedented
                     quality.   
