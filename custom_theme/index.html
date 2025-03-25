@@ -130,31 +130,31 @@
         <div class="col-12 col-sm-4 col-lg-3">
           <div class="software_feature">
             <img
-              src="assets/images/automated_design_gradient.svg"
+              src="{{ config.extra.work_section.design_svg }}"
               alt="automated_design_normal"
             />
-            <h3>Automated <br />by design</h3>
-            <p>Resilient processes that do not rely on manual steps.</p>
+            <h3>{{ config.extra.work_section.first_card_name }}</h3>
+            <p>{{ config.extra.work_section.first_card_desc }}</p>
           </div>
         </div>
         <div class="col-12 col-sm-4 col-lg-3">
           <div class="software_feature">
             <img
-              src="assets/images/automated_design_gradient.svg"
+              src="{{ config.extra.work_section.design_svg }}"
               alt="automated_design_normal"
             />
-            <h3>Automated <br />by design</h3>
-            <p>Resilient processes that do not rely on manual steps.</p>
+            <h3>{{ config.extra.work_section.second_card_name }}</h3>
+            <p>{{ config.extra.work_section.second_card_desc }}</p>
           </div>
         </div>
         <div class="col-12 col-sm-4 col-lg-3">
           <div class="software_feature">
             <img
-              src="assets/images/automated_design_gradient.svg"
+              src="{{ config.extra.work_section.design_svg }}"
               alt="automated_design_normal"
             />
-            <h3>Automated <br />by design</h3>
-            <p>Resilient processes that do not rely on manual steps.</p>
+            <h3>{{ config.extra.work_section.third_card_name }}</h3>
+            <p>{{ config.extra.work_section.third_card_desc }}</p>
           </div>
         </div>
       </div>
@@ -175,18 +175,18 @@
         <div class="col-12 col-md-6">
           <div class="how_we_work_inner">
             <ul>
-              <li>
-                <h4>01</h4>
-                <div class="how_we_work_inner_details">
-                  <h3>Deep requirements understanding</h3>
-                  <p>
-                    With strong medical and scientific background and a sharp
-                    analytic eye, we understand health data projects to the
-                    finest of details.
-                  </p>
-                </div>
-              </li>
-              <li>
+                {% for item in config.extra.work_section.how_we_work %}
+                <li>
+                    <h4>0{{ loop.index }}</h4>
+                    <div class="how_we_work_inner_details">
+                    <h3>{{ item.title }}</h3>
+                    <p>
+                        {{ item.desc }}
+                    </p>
+                    </div>
+                </li>
+                {% endfor %}
+              <!-- <li>
                 <h4>02</h4>
                 <div class="how_we_work_inner_details">
                   <h3>Fast and openiteration cycles</h3>
@@ -227,7 +227,7 @@
                     efficiency, and minimizing scaling cost.
                   </p>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -235,7 +235,7 @@
     </div>
     <img
       class="vero_text"
-      src="assets/images/VERO_text.svg"
+      src="{{ config.extra.work_section.VERO_text_svg }}"
       alt="VERO_text"
     />
   </section>

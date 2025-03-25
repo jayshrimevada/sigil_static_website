@@ -28,13 +28,14 @@ extra:
                     quality.   
   work_section: 
       #card names
-    first_card_name: Automated by design
+    design_svg: ./assets/images/automated_design_gradient.svg
+    first_card_name: Automated <br />by design
     first_card_desc: Resilient processes that do not rely on manual steps.
-    second_card_name: Self-testing by design
+    second_card_name: Self-testing <br />by design
     second_card_desc: Bug-free code that is brilliantly simple and self-maintainable.
-    third_card_name: Secure by design
+    third_card_name: Secure <br />by design
     third_card_desc: Implementation of software patterns that expose no risk.
-
+    VERO_text_svg: ./assets/images/VERO_text.svg
     # How we work list section
     how_we_work:
       - title: Deep requirements understanding
