@@ -255,7 +255,24 @@
       >
         <div class="swiper-container">
           <div class="swiper-wrapper">
+            {% for item in config.extra.news_section %}
             <div class="swiper-slide">
+              <div class="news_details">
+                <a href="#">
+                  <figure>
+                    <img src="{{ item.news_image }}" alt="news" />
+                  </figure>
+                  <div class="news_details_inner">
+                    <h3>{{ item.title }}</h3>
+                    <p>
+                      {{ item.desc }}
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- <div class="swiper-slide">
               <div class="news_details">
                 <a href="#">
                   <figure>
@@ -334,32 +351,16 @@
                   </div>
                 </a>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="news_details">
-                <a href="#">
-                  <figure>
-                    <img src="assets/images/news-1.png" alt="news" />
-                  </figure>
-                  <div class="news_details_inner">
-                    <h3>Rigorous scientific writing of medical content</h3>
-                    <p>
-                      Rigorous scientific writing of medical content for
-                      communication.
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </div>
+            </div> -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
       <div class="swiper-button-next">
-        <img src="assets/images/swipe_arrows.svg" alt="right_arrow" />
+        <img src="{{ config.extra.swipe_arrow }}" alt="right_arrow" />
       </div>
       <div class="swiper-button-prev">
-        <img src="assets/images/swipe_arrows.svg" alt="left_arrow" />
+        <img src="{{ config.extra.swipe_arrow }}" alt="left_arrow" />
       </div>
     </div>
   </section>
@@ -368,19 +369,18 @@
   <section class="newsletter_section">
     <div class="container">
       <div class="newsletter_block">
-        <h3>Sign up to our newsletter and stay up to date</h3>
+        <h3>{{ config.extra.newsletter.line_one }}</h3>
         <form action="">
           <div class="form-group">
             <input type="email" placeholder="youremail123@gmail.com" />
             <button type="submit" class="btn btn_gradient">
               Subscribe
-              <img src="assets/images/swipe_arrows.svg" alt="arrow" />
+              <img src="{{ config.extra.swipe_arrow }}" alt="arrow" />
             </button>
           </div>
         </form>
         <p>
-          By submitting your information, you are granting us permission to
-          email you. You may unsubscribe at any time.
+          {{ config.extra.newsletter.line_two }}
         </p>
       </div>
     </div>
@@ -397,12 +397,10 @@
             data-aos-duration="1000"
           >
             <a href="index.html"
-              ><img src="assets/images/logo.svg" alt="SIGIL"
+              ><img src="{{ config.extra.logo }}" alt="SIGIL"
             /></a>
             <p>
-              Stellar technology for <br />
-              Scientific Evidence <br />Generation and <br />
-              Implementation Science
+              {{ config.extra.footer.desc }}
             </p>
             <ul>
               <li>
@@ -422,10 +420,7 @@
                 <h3>Address</h3>
                 <ul>
                   <li>
-                    <a href="#"
-                      >DMCC Business Centre <br />
-                      Dubai, 4076, AE</a
-                    >
+                    <a href="#">{{ config.extra.footer.address }}</a>
                   </li>
                 </ul>
               </div>
@@ -438,7 +433,7 @@
               >
                 <h3>Email</h3>
                 <ul>
-                  <li><a href="#">info@sigil.ae</a></li>
+                  <li><a href="#">{{ config.extra.footer.email }}</a></li>
                 </ul>
               </div>
             </div>

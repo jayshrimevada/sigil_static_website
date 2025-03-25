@@ -8,6 +8,7 @@ extra:
   style: ./assets/css/style.css
   logo: ./assets/images/logo.svg
   mobile_logo: ./assets/images/mobile-logo.png
+  swipe_arrow: ./assets/images/swipe_arrows.svg
   cover:
     title_line_one: Global.
     title_line_two: Scientific.
@@ -15,6 +16,17 @@ extra:
     slide_one: ./assets/images/slide-1.svg
     slide_two: ./assets/images/slide-2.svg
     slide_three: ./assets/images/slide-3.svg
+  newsletter:
+    line_one: Sign up to our newsletter and stay up to date
+    line_two: By submitting your information, you are granting us permission to
+          email you. You may unsubscribe at any time.
+  footer:
+    desc: Stellar technology for <br />
+          Scientific Evidence <br />Generation and <br />
+          Implementation Science 
+    address:  DMCC Business Centre <br />
+              Dubai, 4076, AE
+    email: info@sigil.ae
   about:  
     title_line_one: We are shaping the future with
     title_line_two: stellar technology
@@ -61,7 +73,32 @@ extra:
               supercharge scientific data processes,
               maximizing operational efficiency, and
               minimizing scaling cost.
-
+  news_section:
+    - title: Rigorous scientific writing of medical content
+      news_image: ./assets/images/news-1.png
+      desc: Rigorous scientific writing of medical content
+            for
+            communication.
+      
+  
+    - title: Rigorous scientific writing of medical content
+      news_image: ./assets/images/news-1.png
+      desc: Rigorous scientific writing of medical content
+            for
+            communication.
+  
+    - title: Rigorous scientific writing of medical content
+      news_image: ./assets/images/news-1.png
+      desc: Rigorous scientific writing of medical content
+            fcdgys6wrfo34lpmmunication.
+    - title: Rigorous scientific writing of medical content
+      news_image: ./assets/images/news-1.png
+      desc: Rigorous scientific writing of medical content
+            fcdgys6wrfo34lpmmunication.
+    - title: Rigorous scientific writing of medical content
+      news_image: ./assets/images/news-1.png
+      desc: Rigorous scientific writing of medical content
+            fcdgys6wrfo34lpmmunication.
   # team_member: data/team_member
   team_member:
     desc: We are a dedicated team of medical doctors,
